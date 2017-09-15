@@ -1,6 +1,5 @@
 package com.hitachi_tstv.mist.it.pod_val_mitsu;
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,7 +13,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 public class SupplierDeliveryActivity extends AppCompatActivity {
-    private Uri firstUri;
+    
     @BindView(R.id.txt_name)
     TextView text_name;
     @BindView(R.id.btn_arrival)
