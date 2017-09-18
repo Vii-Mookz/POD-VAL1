@@ -8,8 +8,8 @@
     <dimen name="txt_h3">24sp</dimen>
     <dimen name="picture_width">80dp</dimen>
     <dimen name="picture_height">80dp</dimen>
-    <dimen name="picture_width_l">100dp</dimen>
-    <dimen name="picture_height_l">100dp</dimen>
+    <dimen name="picture_width_l">90dp</dimen>
+    <dimen name="picture_height_l">90dp</dimen>
     <dimen name="micro_margin">3dp</dimen>
     <dimen name="nano_margin">2dp</dimen>
     <dimen name="button_width">120dp</dimen>

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PlanDeliveryActivity">
+        <activity android:name=".SupplierDeliveryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +19,8 @@
         <activity android:name=".TripActivity" />
         <activity android:name=".DateDeliveryActivity" />
         <activity android:name=".JobActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SupplierDeliveryActivity"></activity>
+        <activity android:name=".PlanDeliveryActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

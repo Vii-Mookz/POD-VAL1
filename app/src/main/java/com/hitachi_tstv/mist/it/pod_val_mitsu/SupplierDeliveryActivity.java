@@ -38,7 +38,8 @@ public class SupplierDeliveryActivity extends AppCompatActivity {
     ImageView img_5;
     @BindView(R.id.img_6)
     ImageView img_6;
-
+    @BindView(R.id.img_7)
+    ImageView img_7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -54,7 +55,7 @@ public class SupplierDeliveryActivity extends AppCompatActivity {
 
 
     //Set On Click Listener
-    @OnClick({R.id.btn_save, R.id.btn_confirm, R.id.btn_arrival, R.id.img_left, R.id.img_right,R.id.img_back,R.id.img_4,R.id.img_5,R.id.img_6})
+    @OnClick({R.id.btn_save, R.id.btn_confirm, R.id.btn_arrival, R.id.img_left, R.id.img_right,R.id.img_back,R.id.img_4,R.id.img_5,R.id.img_6,R.id.img_7})
     public void onViewClicked(View view) {
         switch (view.getId()) {
 
@@ -83,6 +84,9 @@ public class SupplierDeliveryActivity extends AppCompatActivity {
 
                 break;
             case R.id.img_6:
+
+                break;
+            case R.id.img_7:
 
                 break;
         }
