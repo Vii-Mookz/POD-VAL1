@@ -3,4 +3,7 @@
     <string name="Login">Login</string>
     <string name="Username">Username</string>
     <string name="Password">Password</string>
+    <string name="arrival">Arrival</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
 </resources>

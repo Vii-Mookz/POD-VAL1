@@ -6,8 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.beardedhen.androidbootstrap.BootstrapProgressBar;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -23,7 +24,7 @@ public class SupplierDeliveryActivity extends AppCompatActivity {
     @BindView(R.id.btn_confirm)
     Button btn_confirm;
     @BindView(R.id.progess_truck)
-    ProgressBar progress_truck;
+    BootstrapProgressBar progress_truck;
     @BindView(R.id.et_comment)
     EditText et_comment;
     @BindView(R.id.img_left)
