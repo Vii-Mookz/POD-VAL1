@@ -6,4 +6,9 @@
     <string name="arrival">Arrival</string>
     <string name="confirm">Confirm</string>
     <string name="save">Save</string>
+    <string name="TripNo">Trip 0</string>
+    <string name="worksheetNo">Work Sheet No : </string>
+    <string name="tripDate">Trip Date : </string>
+    <string name="Start">Start</string>
+    <string name="Finish">Finish</string>
 </resources>
